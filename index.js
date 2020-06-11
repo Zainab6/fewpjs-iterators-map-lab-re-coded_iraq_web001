@@ -12,10 +12,4 @@ const tutorials = [
 ];
 
 const titleCased =  () => {
-  return tutorials.toLowerCase().split(' ').map(tutorial => tutorial.charAt(0).toUpperCase() + tutorial.slice(1)).join(' ');
 }
-console.log(titleCased)
-
-
-//let result = toTitleCase('maRy hAd a lIttLe LaMb');
-//console.log(result);
