@@ -19,7 +19,7 @@ const tutorials = [
         x[i] = x[i].charAt(0).toUpperCase() + x[i].slice(1)
       }
       })
-       return t.join(" ")
+       return t.join("")
   }
 
 
