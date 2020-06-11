@@ -14,3 +14,4 @@ const tutorials = [
 const titleCased =tutorials.map ((tuturial) => {
   return tutorial.charAt(0).toUpperCase()
 })
+console.log(titleCased)
