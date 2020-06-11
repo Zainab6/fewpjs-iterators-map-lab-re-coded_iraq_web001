@@ -13,6 +13,6 @@ const tutorials = [
 
 function titleCased(){
   let tutorials1 = tutorials.map(tutorial=>
-  return tutorial.splice(" "))
+  return tutorial.split(" "))
 }
 
