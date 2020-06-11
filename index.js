@@ -12,6 +12,7 @@ const tutorials = [
 ];
 
 function titleCased(){
-  let tutorials1 = tutorials.map(tutorial)
+  let tutorials1 = tutorials.map(tutorial=>
+  return tutorial.splice(" "))
 }
 
