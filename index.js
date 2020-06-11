@@ -12,6 +12,6 @@ const tutorials = [
 ];
 
 const titleCased = function(tutorial){
-  
+  return tutorial.
 }
 
