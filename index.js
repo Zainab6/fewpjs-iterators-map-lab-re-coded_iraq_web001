@@ -12,5 +12,5 @@ const tutorials = [
 ];
 
 const titleCased = tutorials.map(tutorial => {
-  tutorial[0].toUpperCase()
+  tutorial[0].toUpperCase() + slice
 })
