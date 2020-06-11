@@ -13,10 +13,22 @@ const tutorials = [
 
 function titleCased(tutorials){
   return tutorials.map(tutorial => {
-  let tutorial= tutorial.split(" ")})
+  tutorial.split(" ")})
   for (let i=0 ; i<tutorial.length;i++){
     tut = tutorial[i].charAt(0).toUpperCase() + tutorial[i].slice
   }
   return tut.join("")
+  }
+  
+  
+  
+  
+  function titleCased(){
+    let t = tutorials.map(x=>{
+      x.split(" ")
+      for (let i=0 ; i<x.length;i++){
+        x[i] = x[i].charAt(0).toUpperCase() + x[i].slice
+      }
+    })
   }
 
