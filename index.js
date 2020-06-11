@@ -15,7 +15,7 @@ function titleCased(tutorials){
   let tutorials1 = tutorials.map(tutorial=>
   return tutorial.split(" "))
   for (let i=0 ; i<tutorials.length;i++){
-    return tutorials1[i].
+    return tutorials1[i].charAt(0).
   }
 }
 
